@@ -1,0 +1,7 @@
+*.log
+*.aux
+*.out
+tmp/**
+*~
+.DS_Store
+/resume/*.pdf

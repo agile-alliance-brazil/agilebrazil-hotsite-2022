@@ -1,0 +1,29 @@
+body {
+    color: #16252E;
+    background: url("../images/porto-alegre-lukascaraffini2012.jpg") no-repeat 24% center fixed;
+    font-size: 18px;
+}
+
+h1, h4 {
+    font-family: 'Staatliches', cursive;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.milky {
+    background-color: white;
+    opacity: 82%;
+    padding: 3em 1em;
+    border-radius: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(67, 172, 75);
+    padding: 1em;
+    border-radius: 1em;
+}
