@@ -14,16 +14,35 @@ h1 {
 
 .milky {
     background-color: white;
-    opacity: 82%;
-    padding: 3em 1em;
+    opacity: 85%;
+    padding: 3em 1em 1.5em;
     border-radius: 1em;
 }
 
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-between;
+}
+
 a {
-    text-decoration: none;
     color: white;
     font-family: 'Staatliches', cursive;
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
     background-color: rgb(67, 172, 75);
     padding: 1em;
     border-radius: 1em;
+    flex: 1 1 0;
+    min-width: 7em;
+}
+
+a:active, a:focus {
+    color: #FFA506;
+}
+
+.highlight {
+    color: #fff200;
 }
